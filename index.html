@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Johnalex Background Color Changer</title>
+
+        <link rel="stylesheet" href="style.css">
+        <script src="angular.min.js"></script>
+    </head>
+    <body ng-app="" ng-init="bgCol='lightblue'" style="background-color:{{bgCol}}">
+
+        <div class="container">
+            <h3>Johnalex Background color changer</h3>
+
+            <p><i>input the name of the color in the input field</i></p>
+
+            <input ng-model="bgCol">
+        </div>
+
+    </body>
+</html>
